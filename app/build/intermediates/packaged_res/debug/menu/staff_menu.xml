@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter"
+        android:title="Filter"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_filter_academic"
+                android:title="Academic Staff" />
+            <item
+                android:id="@+id/action_filter_non_academic"
+                android:title="Non-Academic Staff" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_generate_report"
+        android:icon="@drawable/ic_work"
+        android:title="Generate Report"
+        app:showAsAction="never" />
+
+</menu> 

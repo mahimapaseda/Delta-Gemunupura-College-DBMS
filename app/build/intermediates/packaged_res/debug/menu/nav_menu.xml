@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_students"
+            android:icon="@drawable/ic_students"
+            android:title="@string/manage_students" />
+        
+        <item
+            android:id="@+id/nav_staff"
+            android:icon="@drawable/ic_staff"
+            android:title="@string/manage_staff" />
+        
+        <item
+            android:id="@+id/nav_assets"
+            android:icon="@drawable/ic_assets"
+            android:title="@string/manage_assets" />
+        
+        <item
+            android:id="@+id/nav_exams"
+            android:icon="@drawable/ic_exams"
+            android:title="@string/manage_exams" />
+        
+        <item
+            android:id="@+id/nav_timetables"
+            android:icon="@drawable/ic_timetable"
+            android:title="@string/manage_timetables" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/nav_sync_data"
+                android:icon="@drawable/ic_assets"
+                android:title="Sync Data" />
+            
+            <item
+                android:id="@+id/nav_init_sample_data"
+                android:icon="@drawable/ic_assets"
+                android:title="Initialize Sample Data" />
+        </menu>
+    </item>
+
+    <item android:title="@string/account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_person"
+                android:title="@string/profile" />
+            
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu> 

@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\welcome.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\activity_edit_staff.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\activity_edit_staff.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\item_feature.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\item_feature.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\fragment_staff_classification.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\fragment_staff_classification.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\fragment_personal_details.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\fragment_personal_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\activity_add_staff.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\activity_add_staff.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\dialog_image_picker.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\dialog_image_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\activity_add_student.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\activity_add_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\activity_view_student.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\activity_view_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\item_student.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\item_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\activity_view_staff.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\activity_view_staff.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\signin.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\signin.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\activity_manage_students.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\activity_manage_students.xml"
+    },
+    {
+        "merged": "com.deltagemunupuramv.dbms.app-mergeDebugResources-43:/layout/activity_edit_staff.xml",
+        "source": "com.deltagemunupuramv.dbms.app-main-46:/layout/activity_edit_staff.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\activity_manage_staff.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\activity_manage_staff.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\signup.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\fragment_basic_info.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\fragment_basic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\fragment_employment_details.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\fragment_employment_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-mergeDebugResources-43:\\layout\\item_staff.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.deltagemunupuramv.dbms.app-main-46:\\layout\\item_staff.xml"
+    }
+]
