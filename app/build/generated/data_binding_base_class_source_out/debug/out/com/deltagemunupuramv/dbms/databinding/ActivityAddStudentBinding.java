@@ -13,8 +13,6 @@ import androidx.viewbinding.ViewBindings;
 import com.deltagemunupuramv.dbms.R;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.button.MaterialButton;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
@@ -134,9 +132,6 @@ public final class ActivityAddStudentBinding implements ViewBinding {
   public final TextInputLayout phoneLayout;
 
   @NonNull
-  public final FloatingActionButton pickImageButton;
-
-  @NonNull
   public final TextInputEditText previousSchoolsInput;
 
   @NonNull
@@ -156,9 +151,6 @@ public final class ActivityAddStudentBinding implements ViewBinding {
 
   @NonNull
   public final TextInputLayout siblingsLayout;
-
-  @NonNull
-  public final ShapeableImageView studentImage;
 
   @NonNull
   public final TextInputEditText subjectsInput;
@@ -196,14 +188,13 @@ public final class ActivityAddStudentBinding implements ViewBinding {
       @NonNull TextInputEditText nameWithInitialsInput,
       @NonNull TextInputLayout nameWithInitialsLayout, @NonNull TextInputEditText nicInput,
       @NonNull TextInputLayout nicLayout, @NonNull TextInputEditText phoneInput,
-      @NonNull TextInputLayout phoneLayout, @NonNull FloatingActionButton pickImageButton,
-      @NonNull TextInputEditText previousSchoolsInput,
+      @NonNull TextInputLayout phoneLayout, @NonNull TextInputEditText previousSchoolsInput,
       @NonNull TextInputLayout previousSchoolsLayout, @NonNull TextInputEditText religionInput,
       @NonNull TextInputLayout religionLayout, @NonNull MaterialButton saveButton,
       @NonNull TextInputEditText siblingsInput, @NonNull TextInputLayout siblingsLayout,
-      @NonNull ShapeableImageView studentImage, @NonNull TextInputEditText subjectsInput,
-      @NonNull TextInputLayout subjectsLayout, @NonNull MaterialToolbar toolbar,
-      @NonNull TextInputEditText whatsappInput, @NonNull TextInputLayout whatsappLayout) {
+      @NonNull TextInputEditText subjectsInput, @NonNull TextInputLayout subjectsLayout,
+      @NonNull MaterialToolbar toolbar, @NonNull TextInputEditText whatsappInput,
+      @NonNull TextInputLayout whatsappLayout) {
     this.rootView = rootView;
     this.addressInput = addressInput;
     this.addressLayout = addressLayout;
@@ -241,7 +232,6 @@ public final class ActivityAddStudentBinding implements ViewBinding {
     this.nicLayout = nicLayout;
     this.phoneInput = phoneInput;
     this.phoneLayout = phoneLayout;
-    this.pickImageButton = pickImageButton;
     this.previousSchoolsInput = previousSchoolsInput;
     this.previousSchoolsLayout = previousSchoolsLayout;
     this.religionInput = religionInput;
@@ -249,7 +239,6 @@ public final class ActivityAddStudentBinding implements ViewBinding {
     this.saveButton = saveButton;
     this.siblingsInput = siblingsInput;
     this.siblingsLayout = siblingsLayout;
-    this.studentImage = studentImage;
     this.subjectsInput = subjectsInput;
     this.subjectsLayout = subjectsLayout;
     this.toolbar = toolbar;
@@ -500,12 +489,6 @@ public final class ActivityAddStudentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.pickImageButton;
-      FloatingActionButton pickImageButton = ViewBindings.findChildViewById(rootView, id);
-      if (pickImageButton == null) {
-        break missingId;
-      }
-
       id = R.id.previousSchoolsInput;
       TextInputEditText previousSchoolsInput = ViewBindings.findChildViewById(rootView, id);
       if (previousSchoolsInput == null) {
@@ -548,12 +531,6 @@ public final class ActivityAddStudentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.studentImage;
-      ShapeableImageView studentImage = ViewBindings.findChildViewById(rootView, id);
-      if (studentImage == null) {
-        break missingId;
-      }
-
       id = R.id.subjectsInput;
       TextInputEditText subjectsInput = ViewBindings.findChildViewById(rootView, id);
       if (subjectsInput == null) {
@@ -591,10 +568,10 @@ public final class ActivityAddStudentBinding implements ViewBinding {
           guardianContactInput, guardianContactLayout, guardianNameInput, guardianNameLayout,
           guardianNicInput, guardianNicLayout, guardianOccupationInput, guardianOccupationLayout,
           indexNumberInput, indexNumberLayout, mediumDropdown, mediumLayout, nameWithInitialsInput,
-          nameWithInitialsLayout, nicInput, nicLayout, phoneInput, phoneLayout, pickImageButton,
+          nameWithInitialsLayout, nicInput, nicLayout, phoneInput, phoneLayout,
           previousSchoolsInput, previousSchoolsLayout, religionInput, religionLayout, saveButton,
-          siblingsInput, siblingsLayout, studentImage, subjectsInput, subjectsLayout, toolbar,
-          whatsappInput, whatsappLayout);
+          siblingsInput, siblingsLayout, subjectsInput, subjectsLayout, toolbar, whatsappInput,
+          whatsappLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

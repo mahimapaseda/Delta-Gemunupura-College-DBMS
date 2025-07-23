@@ -20,17 +20,7 @@
           <theme>@style/Theme.DBMS</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_students.xml">
-        <config>
-          <theme>@style/Theme.DBMS</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/school_logo.xml">
-        <config>
-          <theme>@style/Theme.DBMS</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_staff.xml">
         <config>
           <theme>@style/Theme.DBMS</theme>
         </config>
@@ -40,27 +30,12 @@
           <theme>@style/Theme.DBMS</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_staff.xml">
-        <config>
-          <theme>@style/Theme.DBMS</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/Theme.DBMS</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_manage_staff.xml">
-        <config>
-          <theme>@style/Theme.DBMS</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_manage_students.xml">
-        <config>
-          <theme>@style/Theme.DBMS</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_view_staff.xml">
         <config>
           <theme>@style/Theme.DBMS</theme>
         </config>
@@ -91,11 +66,6 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/welcome.xml">
-        <config>
-          <theme>@style/Theme.DBMS</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi/ic_launcher.xml">
         <config>
           <theme>@style/Theme.DBMS</theme>
         </config>
@@ -231,12 +201,12 @@
       <map>
         <entry key="com.deltagemunupuramv.dbms">
           <value>
-            <CheckInfo lastCheckTimestamp="1753185170049" />
+            <CheckInfo lastCheckTimestamp="1753058682529" />
           </value>
         </entry>
         <entry key="com.deltagemunupuramv.dbms.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1753185170048" />
+            <CheckInfo lastCheckTimestamp="1753058682529" />
           </value>
         </entry>
       </map>
