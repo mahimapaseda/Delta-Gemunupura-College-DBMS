@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DBMS</string>
+    
+    <!-- Staff Status Array -->
+    <string-array name="staff_status_array">
+        <item>Active</item>
+        <item>Inactive</item>
+        <item>On Leave</item>
+    </string-array>
+    
+    <!-- Welcome Screen -->
+    <string name="school_logo">School Logo</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="school_name">Delta Gemunupura College</string>
+    <string name="dbms_title">Database Management System</string>
+    <string name="get_started">Get Started</string>
+    
+    <!-- Sign In Screen -->
+    <string name="sign_in">Sign In</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Contact administrator for password reset</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    
+    <!-- Sign Up Screen -->
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_role">Select Role</string>
+    <string name="have_account">Already have an account?</string>
+    
+    <!-- Role-based Access -->
+    <string name="role_administrator">Administrator</string>
+    <string name="role_principal">Principal</string>
+    <string name="role_data_officer">Data Officer</string>
+    <string name="role_technical_officer">Technical Officer</string>
+    <string name="role_academic_staff">Academic Staff</string>
+    
+    <!-- Main Functions -->
+    <string name="manage_students">Manage Student Details</string>
+    <string name="manage_staff">Manage Staff Details</string>
+    <string name="manage_assets">Manage Assets &amp; Inventory</string>
+    <string name="manage_exams">Manage Exam Details</string>
+    <string name="manage_timetables">Manage Timetables</string>
+    
+    <!-- Dashboard -->
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="account">Account</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+    
+    <!-- Feature Descriptions -->
+    <string name="students_desc">Manage student records, attendance, and performance</string>
+    <string name="staff_desc">Manage staff information and assignments</string>
+    <string name="assets_desc">Track school assets and inventory</string>
+    <string name="exams_desc">Manage examination records and results</string>
+    <string name="timetables_desc">Create and manage class schedules</string>
+    
+    <!-- Common Actions -->
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="view">View</string>
+    <string name="generate_report">Generate Report</string>
+    
+    <!-- Messages -->
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_invalid_username">Username must be at least 3 characters</string>
+    <string name="error_invalid_credentials">Invalid username/email or password</string>
+    <string name="success_account_created">Account created successfully!</string>
+</resources>
