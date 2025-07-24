@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "809096374143",
+    "project_id": "dbms-delta",
+    "storage_bucket": "dbms-delta.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809096374143:android:1cb9462f0b9aa1e8259c4a",
+        "android_client_info": {
+          "package_name": "com.deltagemunupuramv.dbms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfH7Czk9aqWVjcS2U1w4VMdYthaEzp4zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
