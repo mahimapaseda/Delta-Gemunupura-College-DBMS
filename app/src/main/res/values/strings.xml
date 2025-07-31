@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DBMS</string>
+    
+    <!-- Staff Status Array -->
+    <string-array name="staff_status_array">
+        <item>Active</item>
+        <item>Inactive</item>
+        <item>On Leave</item>
+    </string-array>
+
+    <string-array name="staff_classification_array">
+        <item>Principal (Full Access)</item>
+        <item>Data Officer (Full Access)</item>
+        <item>Technical Officer (Full Access)</item>
+        <item>Academic Staff (Partial Access)</item>
+        <item>Non-Academic Staff (Partial Access)</item>
+    </string-array>
+    
+    <!-- Marital Status Array -->
+    <string-array name="marital_status_array">
+        <item>Single</item>
+        <item>Married</item>
+    </string-array>
+    
+    <!-- Welcome Screen -->
+    <string name="school_logo">School Logo</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="school_name">Delta Gemunupura College</string>
+    <string name="dbms_title">Database Management System</string>
+    <string name="welcome_title">Welcome to Delta Gemunupura DBMS</string>
+    <string name="welcome_subtitle">Manage your school database efficiently</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_user">Welcome, %1$s!</string>
+    
+    <!-- Navigation -->
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="account">Account</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    
+    <!-- Features -->
+    <string name="manage_students">Manage Students</string>
+    <string name="students_desc">Add, edit, and manage student records</string>
+    <string name="manage_staff">Manage Staff</string>
+    <string name="staff_desc">Add, edit, and manage staff details</string>
+    <string name="manage_assets">Manage Assets</string>
+    <string name="assets_desc">Track and manage school assets</string>
+    <string name="manage_exams">Manage Exams</string>
+    <string name="exams_desc">Schedule and manage examinations</string>
+    <string name="manage_timetables">Manage Timetables</string>
+    <string name="timetables_desc">Create and manage class timetables</string>
+    
+    <!-- Auth -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="role">Role</string>
+    <string name="select_role">Select Role</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="forgot_password">Contact administrator for password reset</string>
+    
+    <!-- Roles -->
+    <string name="role_administrator">Administrator</string>
+    <string name="role_principal">Principal</string>
+    <string name="role_data_officer">Data Officer</string>
+    <string name="role_technical_officer">Technical Officer</string>
+    <string name="role_academic_staff">Academic Staff</string>
+    
+    <!-- Errors -->
+    <string name="error_empty_fields">This field cannot be empty</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_invalid_username">Username must be at least 3 characters long</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+    <string name="error_passwords_dont_match">Passwords do not match</string>
+    <string name="error_invalid_credentials">Invalid email/username or password</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    
+    <!-- Success Messages -->
+    <string name="success_account_created">Account created successfully!</string>
+    <string name="success_signed_in">Signed in successfully!</string>
+    
+    <!-- Exam Management -->
+    <string name="add_exam">Add Exam</string>
+    <string name="edit_exam">Edit Exam</string>
+    <string name="view_exam">View Exam</string>
+    <string name="delete_exam">Delete Exam</string>
+    <string name="exam_deleted">Exam deleted successfully</string>
+    <string name="exam_delete_failed">Failed to delete exam</string>
+    <string name="no_exams_found">No exams found</string>
+    <string name="try_adjusting_filters">Try adjusting your filters or add a new exam</string>
+    
+    <!-- Term Test Management -->
+    <string name="term_test_management">Term Test Management</string>
+    <string name="add_term_test">Add Term Test</string>
+    <string name="edit_term_test">Edit Term Test</string>
+    <string name="view_term_test">View Term Test</string>
+    <string name="delete_term_test">Delete Term Test</string>
+    <string name="term_test_deleted">Term test deleted successfully</string>
+    <string name="term_test_delete_failed">Failed to delete term test</string>
+    <string name="no_term_tests_found">No term tests found</string>
+    <string name="try_adjusting_filters_term_test">Try adjusting your filters or add a new term test</string>
+    
+    <!-- Exam Types -->
+    <string name="term_test">Term Test</string>
+    <string name="a_l_results">A/L Results</string>
+    <string name="o_l_results">O/L Results</string>
+    
+    <!-- Exam Status -->
+    <string name="scheduled">Scheduled</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="completed">Completed</string>
+    <string name="c_cancelled">Cancelled</string>
+    <string name="postponed">Postponed</string>
+
+    <!-- A/L Results Management -->
+    <string name="al_results_management">A/L Results Management</string>
+    <string name="add_al_result">Add A/L Result</string>
+    <string name="edit_al_result">Edit A/L Result</string>
+    <string name="view_al_result">View A/L Result</string>
+    <string name="delete_al_result">Delete A/L Result</string>
+    <string name="al_result_deleted">A/L result deleted successfully</string>
+    <string name="al_result_delete_failed">Failed to delete A/L result</string>
+    <string name="no_al_results_found">No A/L results found</string>
+    <string name="try_adjusting_filters_al_result">Try adjusting your filters or add a new A/L result</string>
+
+    <!-- O/L Results Management -->
+    <string name="ol_results_management">O/L Results Management</string>
+    <string name="add_ol_result">Add O/L Result</string>
+    <string name="edit_ol_result">Edit O/L Result</string>
+    <string name="view_ol_result">View O/L Result</string>
+    <string name="delete_ol_result">Delete O/L Result</string>
+    <string name="ol_result_deleted">O/L result deleted successfully</string>
+    <string name="ol_result_delete_failed">Failed to delete O/L result</string>
+    <string name="no_ol_results_found">No O/L results found</string>
+    <string name="try_adjusting_filters_ol_result">Try adjusting your filters or add a new O/L result</string>
+
+    <!-- O/L Results Specific Fields -->
+    <string name="ordinary_level_results">Ordinary Level Results</string>
+    <string name="year">Year</string>
+    <string name="index_no">Index No</string>
+    <string name="nic_no">NIC No</string>
+    <string name="attempt_no">Attempt No</string>
+    <string name="gender">Gender</string>
+    <string name="medium">Medium</string>
+    <string name="medium_sinhala">Sinhala</string>
+    <string name="medium_english">English</string>
+    <string name="religion">Religion</string>
+    <string name="language_literature">Language &amp; Literature</string>
+    <string name="english">English</string>
+    <string name="science">Science</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="history">History</string>
+    <string name="first_subject_group">1st Subject Group</string>
+    <string name="second_subject_group">2nd Subject Group</string>
+    <string name="third_subject_group">3rd Subject Group</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="buddhism">Buddhism</string>
+    <string name="christianity">Christianity</string>
+    <string name="islam">Islam</string>
+    <string name="hinduism">Hinduism</string>
+    <string name="other_religion">Other</string>
+
+    <!-- A/L Results Specific Fields -->
+    <string name="advanced_level_results">Advanced Level Results</string>
+    <string name="exam_year">Exam Year</string>
+    <string name="subject_stream">Subject Stream</string>
+    <string name="subject_stream_science">Science</string>
+    <string name="subject_stream_commerce">Commerce</string>
+    <string name="subject_stream_arts">Arts</string>
+    <string name="subject_stream_technology">Technology</string>
+    <string name="subject_1">Subject 1</string>
+    <string name="subject_2">Subject 2</string>
+    <string name="subject_3">Subject 3</string>
+    <string name="grade">Grade</string>
+    <string name="average_z_score">Average Z-Score</string>
+    <string name="district_rank">District Rank</string>
+    <string name="island_rank">Island Rank</string>
+    <string name="general_english_grade">General English Grade</string>
+    <string name="common_general_test_marks">Common General Test Marks</string>
+    <string name="grade_a">A</string>
+    <string name="grade_b">B</string>
+    <string name="grade_c">C</string>
+    <string name="grade_s">S</string>
+    <string name="grade_f">F</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+</resources>
